@@ -1,0 +1,176 @@
+.headerMenu {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoSeccMenu1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  grid-area: header; }
+  .headerMenu .navbar {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; }
+    .headerMenu .navbar .container-fluid .logo {
+      display: block;
+      margin-left: 1%;
+      position: relative;
+      bottom: 15%; }
+    .headerMenu .navbar .container-fluid .navbar-toggler {
+      position: relative;
+      bottom: 30px;
+      background-color: #fefad7; }
+    .headerMenu .navbar .container-fluid .navbar-collapse {
+      justify-content: flex-end;
+      position: relative;
+      bottom: 40px; }
+      .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav {
+        list-style-type: none;
+        padding: 2%; }
+        .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+          display: inline-block;
+          padding: 5px; }
+          .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+            text-decoration: none;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            padding: 10px; }
+            .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+              background-color: #fefad7;
+              border-radius: 20%;
+              color: black; }
+  .headerMenu .divSaboresOtros {
+    margin: 3%;
+    position: relative;
+    top: 5%; }
+    .headerMenu .divSaboresOtros .h1_header {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      font-size: 3rem; }
+
+.seccion_main-menu {
+  grid-area: main; }
+  .seccion_main-menu .mainSeccion {
+    margin: 5%; }
+    .seccion_main-menu .mainSeccion .mainTitulo {
+      text-align: center;
+      margin: 2%;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 32px; }
+    .seccion_main-menu .mainSeccion .mainParrafo {
+      text-align: center;
+      margin: 2% 7%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px; }
+  .seccion_main-menu .fondoMenuMain {
+    background-image: url(../img/fondoMenu3.png);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around; }
+    .seccion_main-menu .fondoMenuMain .menuBlanco {
+      background-color: rgba(255, 255, 255, 0.89);
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      margin: 4% 2%;
+      padding: 4%; }
+      .seccion_main-menu .fondoMenuMain .menuBlanco .carta {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold; }
+      .seccion_main-menu .fondoMenuMain .menuBlanco .menuCompleto {
+        line-height: 2rem;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        margin: 20px; }
+        .seccion_main-menu .fondoMenuMain .menuBlanco .menuCompleto .lista_menu li:hover {
+          background-color: transparent; }
+    .seccion_main-menu .fondoMenuMain .menuBlanco2 {
+      background-color: rgba(255, 255, 255, 0.89);
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      margin: 4% 2%;
+      padding: 4%; }
+      .seccion_main-menu .fondoMenuMain .menuBlanco2 .carta {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold; }
+
+.footer {
+  grid-area: footer;
+  color: white;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  .footer .footerIzquierda {
+    margin-left: 1%; }
+  .footer .footerDerecha {
+    margin: 1% 5%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contenedorPadre {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "main" "footer";
+  width: 100%; }
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 2%; }
+    .navbar-nav .nav-item:hover {
+      border-radius: 20%;
+      background-color: transparent; }
+    .navbar-nav .nav-item .boton-menu:hover {
+      color: black;
+      background-color: #fefad7;
+      border-radius: 20%; }
+  .logo {
+    display: block;
+    margin-left: 1%;
+    position: relative;
+    bottom: 35%; }
+  .fondoMenuMain {
+    background-image: url(../img/fondoMenu3.png);
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  .h1_header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    position: relative;
+    bottom: 70px; } }
+
+@media screen and (max-width: 576px) {
+  .logo {
+    display: block;
+    margin-left: 1%;
+    position: relative;
+    bottom: 35%; }
+  .footer {
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; } }
