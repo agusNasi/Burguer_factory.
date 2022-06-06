@@ -1,0 +1,138 @@
+.headerMenu{
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/fondoSeccMenu1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    grid-area: header;
+    .navbar{
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        .container-fluid{
+            .logo{
+                display: block;
+                margin-left: 1%;
+                position: relative;
+                bottom: 15%;
+            }
+            .navbar-toggler{
+                position: relative;
+                bottom: 30px;
+                background-color: $colorPaleta_beige;
+            }
+            .navbar-collapse{
+                justify-content: flex-end;
+                position: relative;
+                bottom: 40px;
+                .navbar-nav{
+                    list-style-type: none;
+                    padding: 2%;
+                    .nav-item{
+                        display: inline-block;
+                        padding: 5px;
+                        .boton-menu{
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Open Sans', sans-serif;
+                            padding: 10px;
+                            &:hover{
+                                background-color: $colorPaleta_beige;
+                                border-radius: 20%;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .divSaboresOtros{
+        margin: 3%;
+        position: relative;
+        top: 5%;
+        .h1_header{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            font-size: 3rem;
+        }
+    }
+}
+.seccion_main-menu{
+    grid-area: main;
+    .mainSeccion{
+        margin: 5%;
+        .mainTitulo{
+            text-align: center;
+            margin: 2%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 32px;
+        }
+        .mainParrafo{
+            text-align: center;
+            margin: 2% 7%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+    }
+    .fondoMenuMain{
+        background-image: url(../img/fondoMenu3.png);
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-around;
+        .menuBlanco{
+            background-color: rgba(255, 255, 255, 0.89);
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            margin: 4% 2%;
+            padding: 4%;
+            .carta{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+            }
+            .menuCompleto{
+                line-height: 2rem;
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+                margin: 20px;
+                .lista_menu li:hover{
+                    background-color: transparent;
+                }
+            }
+        }
+        .menuBlanco2{
+            background-color: rgba(255, 255, 255, 0.89);
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            margin: 4% 2%;
+            padding: 4%;
+            .carta{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.footer{
+    grid-area: footer;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .footerIzquierda{
+        margin-left: 1%;
+    }
+    .footerDerecha{
+        margin: 1% 5%;
+    }
+}

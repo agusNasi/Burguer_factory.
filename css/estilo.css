@@ -112,16 +112,239 @@
   .footer .footerDerecha {
     margin: 1% 5%; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+.headerNosotros {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoNosotros5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  text-align: center;
+  grid-area: header; }
+  .headerNosotros .navbar {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; }
+    .headerNosotros .navbar .container-fluid .logo {
+      display: block;
+      margin-left: 1%;
+      position: relative;
+      bottom: 15%; }
+    .headerNosotros .navbar .container-fluid .navbar-toggler {
+      position: relative;
+      bottom: 30px;
+      background-color: #fefad7; }
+    .headerNosotros .navbar .container-fluid .navbar-collapse {
+      justify-content: flex-end;
+      position: relative;
+      bottom: 40px; }
+      .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav {
+        list-style-type: none;
+        padding: 2%; }
+        .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+          display: inline-block;
+          padding: 5px; }
+          .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+            text-decoration: none;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            padding: 10px; }
+            .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+              background-color: #fefad7;
+              border-radius: 20%;
+              color: black; }
+  .headerNosotros .divSaboresOtros {
+    margin: 3%;
+    position: relative;
+    top: 5%; }
+    .headerNosotros .divSaboresOtros .h1_header {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      font-size: 3rem; }
 
-.contenedorPadre {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: "header" "main" "footer";
-  width: 100%; }
+.contenedorHijoNos_main {
+  grid-area: main; }
+  .contenedorHijoNos_main .seccionNosotros {
+    margin: 5%;
+    display: flex; }
+    .contenedorHijoNos_main .seccionNosotros .divImgNos .imgNos {
+      width: 70vh; }
+    .contenedorHijoNos_main .seccionNosotros .seccionNos_texto {
+      margin: 5% 7% 5% 5%;
+      line-height: 1.6;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 80px;
+      font-size: 20px; }
+      .contenedorHijoNos_main .seccionNosotros .seccionNos_texto .nosotros_h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 10px; }
+      .contenedorHijoNos_main .seccionNosotros .seccionNos_texto .animate__animated {
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Water Brush', cursive;
+        margin-top: 10%; }
+
+.contenedorHijoNos_footer {
+  grid-area: footer;
+  color: white;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  .contenedorHijoNos_footer .footerIzquierda {
+    margin-left: 1%; }
+  .contenedorHijoNos_footer .footerDerecha {
+    margin: 1% 5%; }
+
+.headerContacto {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoMenu1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  grid-area: header; }
+  .headerContacto .navbar {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; }
+    .headerContacto .navbar .container-fluid .logo {
+      display: block;
+      margin-left: 1%;
+      position: relative;
+      bottom: 15%; }
+    .headerContacto .navbar .container-fluid .navbar-toggler {
+      position: relative;
+      bottom: 30px;
+      background-color: #fefad7; }
+    .headerContacto .navbar .container-fluid .navbar-collapse {
+      justify-content: flex-end;
+      position: relative;
+      bottom: 40px; }
+      .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav {
+        list-style-type: none;
+        padding: 2%; }
+        .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+          display: inline-block;
+          padding: 5px; }
+          .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+            text-decoration: none;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            padding: 10px; }
+            .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+              background-color: #fefad7;
+              border-radius: 20%;
+              color: black; }
+  .headerContacto .divSaboresOtros {
+    margin: 3%;
+    position: relative;
+    top: 5%; }
+    .headerContacto .divSaboresOtros .h1_header {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      font-size: 3rem; }
+
+.contenedorHijoCont_main {
+  grid-area: main;
+  margin: 2%; }
+  .contenedorHijoCont_main .seccion1Cont .seccion1Cont_h2 {
+    text-align: center;
+    margin: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px; }
+  .contenedorHijoCont_main .seccion1Cont .seccion1Cont_p {
+    text-align: center;
+    margin: 2% 7%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; }
+  .contenedorHijoCont_main .seccion2Cont {
+    display: flex;
+    justify-content: center; }
+    .contenedorHijoCont_main .seccion2Cont form {
+      width: 60%;
+      margin: 2rem 20%; }
+      .contenedorHijoCont_main .seccion2Cont form .nombre_apellido {
+        display: flex; }
+        .contenedorHijoCont_main .seccion2Cont form .nombre_apellido .nombreAp {
+          width: 100%;
+          padding-right: 5px;
+          padding-left: 5px; }
+          .contenedorHijoCont_main .seccion2Cont form .nombre_apellido .nombreAp input {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+      .contenedorHijoCont_main .seccion2Cont form .formulario_ .email_ {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+      .contenedorHijoCont_main .seccion2Cont form .motivo .selecMotivo {
+        display: inline-block;
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        vertical-align: middle; }
+      .contenedorHijoCont_main .seccion2Cont form .cajaComentarios textarea {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+      .contenedorHijoCont_main .seccion2Cont form .contactoBotones .seccionBoton {
+        display: flex;
+        width: 30vh; }
+
+.contenedorHijoCont_footer {
+  grid-area: footer;
+  color: white;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  .contenedorHijoCont_footer .footerIzquierda {
+    margin-left: 1%; }
+  .contenedorHijoCont_footer .footerDerecha {
+    margin: 1% 5%; }
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
@@ -158,7 +381,17 @@
     color: white;
     font-size: 3rem;
     position: relative;
-    bottom: 70px; } }
+    bottom: 70px; }
+  .seccionInicioNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .seccionNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .imgNos {
+    width: 50vh !important; } }
 
 @media screen and (max-width: 576px) {
   .logo {
@@ -166,7 +399,7 @@
     margin-left: 1%;
     position: relative;
     bottom: 35%; }
-  .footer {
+  footer {
     color: white;
     background-color: black;
     font-family: 'Open Sans', sans-serif;
@@ -174,3 +407,14 @@
     display: flex;
     flex-direction: column;
     text-align: center; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contenedorPadre {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "main" "footer";
+  width: 100%; }
