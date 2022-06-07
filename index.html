@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/diseñoFavicon.png">
+    <link rel="shortcut icon" href="./img/diseñoFavicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&family=Water+Brush&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
-    <title>Burguer Factory.</title>
+    <title>Burguer factory.</title>
 </head>
 <body class="contenedorPadre">
-    <header class="headerMenu ContenedorHijo_header">
+    <header class="headerInicio contenedorHijo_header">
         <nav class="navbar navbar-expand-lg navM">
             <div class="container-fluid">
                 <img src="./img/logoburguerfactory2.png" alt="Logo dai" class="logo">
@@ -22,7 +22,7 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
                             <a class="boton-menu" href="index.html">Inicio</a>
                         </li>
@@ -42,51 +42,52 @@
                 </div>
             </div>
         </nav>
-        <div class="divSaboresOtros">
-            <h1 class="h1_header">Tentate de algo rico</h1>
-        </div>
-    </header>
-    <main class="seccion_main-menu ContenedorHijo_main">
-        <section class="mainSeccion">
-            <h2 class="mainTitulo">Menú</h2>
-            <p class="mainParrafo">En burguer factory seleccionamos muy detalladamente nuestros ingredientes para que puedas disfrutar de una buena comida.</p>
+        <section class="divSabores">
+            <div class="saboresDiv">
+                <h1 class="mejoresSabores">Los mejores sabores de <span>Cordoba</span></h1>
+            </div>
+            <div class="flexVerMenu">
+                <a class="verMenu" href="menu.html">Ver Menú</a>
+            </div>
         </section>
-        <section class="fondoMenuMain">
-            <article class="menuBlanco">
-                <h1 class="carta">Menú</h1>
-                <p class="menuCompleto">
-                    <ul class="lista_menu">
-                        <li>Hamburguesa comun............... $100</li><br>
-                        <li>Hamburguesa especial............ $100</li><br>
-                        <li>Hamburguesa veggy............... $100</li><br>
-                        <li>Pizza muzza..................... $100</li><br>
-                        <li>pizza especial.................. $100</li><br>
-                        <li>pizza veggy..................... $100</li><br>
-                        <li>pancho con aderezo.............. $100</li><br>
-                        <li>pancho con aderezo y salsa...... $100</li><br>
-                        <li>pancho veggy.................... $100</li><br>
-                    </ul>
-                </p>
-            </article>
-            <article class="menuBlanco2">
-                <h1 class="carta">Bebidas</h1>
-                <p class="menuCompleto">
-                    <ul class="lista_menu">
-                        <li>pepsi........................... $100</li><br>
-                        <li>pepsi black..................... $100</li><br>
-                        <li>seven up........................ $100</li><br>
-                        <li>seven up ligth.................. $100</li><br>
-                        <li>paso de los toros............... $100</li><br>
-                        <li>paso de los toros ligth......... $100</li><br>
-                        <li>agua............................ $100</li><br>
-                        <li>agua saborizada................. $100</li><br>
-                        <li>cervezas artesanales............ $100</li><br>
-                    </ul>
-                </p>
-            </article>
+    </header>
+    <main class="contenedorHijoIndex_main">
+        <section class="seccionInicioNosotros">
+            <div class="nosotros">
+                <img class="nosotrosImg" src="./img/incioSobreNos..png" alt="nuestra gente de dai">
+            </div>
+            <div class="nosotros_texto">
+                <h3 class="sobreNosotros">Sobre Nosotros</h3>
+                <p class="sobreNosotros_texto">Burguer factory nacio de un grupo de 10 amigos que les gustaba ir a probar todas las hamburguesas de Cordoba capital y asi poder clasificarlas. Cuando probaron todas no habian encontrado la hamburguesa perfecta y asi fue como decidieron crear Burguer factory. Al principio empezo como algo muy chico en la casa de uno de los chicos hasta que empezo a ser muy conocido y pudieron abrir su primer local de comida donde venden hamburguesas pizzas y pancho de la mejor calidad y mas rico de Cordoba Capital.</p>
+                <a href="nosotros.html" class="verMas">Ver más</a>
+            </div>
+        </section>
+        <section class="seccionVideo">
+            <video src="./img/Burger factory..mp4" controls class="videoInicio"></video>
+        </section>
+        <section class="seccionInicioProductos">
+            <div class="especialidadesInicio">
+                <h3 class="especialidadesCasa">Especialidades de la casa</h3>
+                <p class="productos_texto">En nuestro local vas a encontrar una gran variedad de sabores y las mejores hamburguesas pizzas y panchos de Cordoba</p>
+            </div>
+            <div class="fotosInicioProductos">
+                <article class="articuloInicio">
+                    <img class="articulo_img" src="./img/Diseño sin título (5).png" alt="">
+                    <h3 class="indexSeccProd">Hamburguesa</h3>
+                </article>
+                <article class="articuloInicio">
+                    <img class="articulo_img" src="./img/Diseño sin título (6).png" alt="">
+                    <h3 class="indexSeccProd">Pizza</h3>
+                </article>
+                <article class="articuloInicio">
+                    <img class="articulo_img" src="./img/Diseño sin título (7).png" alt="">
+                    <h3 class="indexSeccProd">Pancho</h3>
+                </article>
+            </div>
+            <a href="productos.html" class="verProductosInicio">Ver productos</a>
         </section>
     </main>
-    <footer class="footer ContenedorHijo_footer">
+    <footer class="contenedorHijoIndex_footer">
         <div class="footerIzquierda">
             <img src="./img/logoburguerfactory2.png" alt="">
         </div>
@@ -100,6 +101,5 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
 </body>
 </html>

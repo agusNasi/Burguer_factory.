@@ -1,0 +1,178 @@
+.headerProductos{
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/fondoSeccProducto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    grid-area: header;
+    .navbar{
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        .container-fluid{
+            .logo{
+                display: block;
+                margin-left: 1%;
+                position: relative;
+                bottom: 15%;
+            }
+            .navbar-toggler{
+                position: relative;
+                bottom: 30px;
+                background-color: $colorPaleta_beige;
+            }
+            .navbar-collapse{
+                justify-content: flex-end;
+                position: relative;
+                bottom: 40px;
+                .navbar-nav{
+                    list-style-type: none;
+                    padding: 2%;
+                    .nav-item{
+                        display: inline-block;
+                        padding: 5px;
+                        .boton-menu{
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Open Sans', sans-serif;
+                            padding: 10px;
+                            &:hover{
+                                background-color: $colorPaleta_beige;
+                                border-radius: 20%;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .divSaboresOtros{
+        margin: 3%;
+        position: relative;
+        top: 5%;
+        .h1_header{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+            font-size: 3rem;
+        }
+    }
+}
+.contenedorHijoProd_main{
+    grid-area: main;
+    .mainSeccion{
+        margin: 5%;
+        .mainTitulo{
+            text-align: center;
+            margin: 2%;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            font-size: 32px;
+        }
+        .mainParrafo{
+            text-align: center;
+            margin: 2% 7%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+        }
+    }
+    .seccionProductos_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "Producto1 Hamburguesa"
+        "Pizza Producto2"
+        "Producto3 Pancho";
+        .prodImg1{
+            grid-area: Hamburguesa;
+            justify-self: left;
+            margin: 9% 20% 5% 5%;
+            .imgDivProductos_hamb{
+                width: 100%;
+            }
+        }
+        .prodTexto1{
+            grid-area: Producto1;
+            text-align: right;
+            margin: 9% 5% 5% 20%;
+            .prodTexto1_h2{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                font-size: 32px;
+                margin: 5%;
+            }
+            .prodTexto1_p{
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                margin: 5%;
+            }
+        }
+        .prodImg2{
+            grid-area: Pizza;
+            text-align: end;
+            margin: 9% 5% 5% 20%;
+            .imgDivProductos_pizza{
+                width: 100%;
+            }
+        }
+        .prodTexto2{
+            grid-area: Producto2;
+            text-align: left;
+            margin: 9% 20% 5% 5%;
+            .prodTexto_h2{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                font-size: 32px;
+                margin: 5%;
+            }
+            .prodTexto_p{
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                margin: 5%;
+            }
+        }
+        .prodTexto3{
+            grid-area: Producto3;
+            text-align: right;
+            margin: 9% 5% 5% 20%;
+            .prodTexto3_h2{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                font-size: 32px;
+                margin: 5%;
+            }
+            .prodTexto3_p{
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                margin: 5%;
+            }
+        }
+        .prodImg3{
+            grid-area: Pancho;
+            justify-self: center;
+            margin: 9% 20% 5% 5%;
+            .imgDivProductos_pancho{
+                width: 100%;
+            }
+        }
+    }
+}
+.contenedorHijoProd_footer{
+    grid-area: footer;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .footerIzquierda{
+        margin-left: 1%;
+    }
+    .footerDerecha{
+        margin: 1% 5%;
+    }
+}

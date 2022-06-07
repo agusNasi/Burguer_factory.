@@ -1,3 +1,173 @@
+.headerInicio {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/headerFondoInicio.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40rem;
+  text-align: center;
+  grid-area: header; }
+  .headerInicio .navbar {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; }
+    .headerInicio .navbar .container-fluid .logo {
+      display: block;
+      margin-left: 1%;
+      position: relative;
+      bottom: 15%; }
+    .headerInicio .navbar .container-fluid .navbar-toggler {
+      position: relative;
+      bottom: 30px;
+      background-color: #fefad7; }
+    .headerInicio .navbar .container-fluid .navbar-collapse {
+      justify-content: flex-end;
+      position: relative;
+      bottom: 40px; }
+      .headerInicio .navbar .container-fluid .navbar-collapse .navbar-nav {
+        list-style-type: none;
+        padding: 2%; }
+        .headerInicio .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+          display: inline-block;
+          padding: 5px; }
+          .headerInicio .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+            text-decoration: none;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            padding: 10px; }
+            .headerInicio .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+              background-color: #fefad7;
+              border-radius: 20%;
+              color: black; }
+  .headerInicio .divSabores {
+    display: flex;
+    flex-direction: column;
+    margin: 3%; }
+    .headerInicio .divSabores .saboresDiv .mejoresSabores {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      font-size: 3rem; }
+      .headerInicio .divSabores .saboresDiv .mejoresSabores span {
+        color: #b39975; }
+    .headerInicio .divSabores .flexVerMenu {
+      margin-top: 5%; }
+      .headerInicio .divSabores .flexVerMenu .verMenu {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 32px;
+        color: white;
+        text-decoration: none;
+        background-color: #b39975;
+        padding: 5px 25px;
+        border-radius: 20%;
+        transition: 0.5s; }
+        .headerInicio .divSabores .flexVerMenu .verMenu:hover {
+          color: black;
+          background-color: #fefad7;
+          border-radius: 20%;
+          padding: 5px 25px; }
+
+.contenedorHijoIndex_main {
+  grid-area: main; }
+  .contenedorHijoIndex_main .seccionInicioNosotros {
+    margin: 5%;
+    display: flex; }
+    .contenedorHijoIndex_main .seccionInicioNosotros .nosotros .nosotrosImg {
+      height: 70vh; }
+    .contenedorHijoIndex_main .seccionInicioNosotros .nosotros_texto {
+      margin: 5% 7% 5% 5%;
+      display: flex;
+      flex-direction: column; }
+      .contenedorHijoIndex_main .seccionInicioNosotros .nosotros_texto .sobreNosotros {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 10px; }
+      .contenedorHijoIndex_main .seccionInicioNosotros .nosotros_texto .sobreNosotros_texto {
+        line-height: 1.6;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 80px;
+        font-size: 20px; }
+      .contenedorHijoIndex_main .seccionInicioNosotros .nosotros_texto .verMas {
+        background-color: #b39975;
+        text-decoration: none;
+        color: black;
+        border-radius: 20%;
+        padding: 5px 20px;
+        font-size: 20px;
+        transition: 0.5s;
+        align-self: center; }
+        .contenedorHijoIndex_main .seccionInicioNosotros .nosotros_texto .verMas:hover {
+          background-color: black;
+          color: white;
+          border-radius: 20%;
+          padding: 5px 20px;
+          font-size: 20px; }
+  .contenedorHijoIndex_main .seccionVideo {
+    display: flex;
+    justify-content: center;
+    background-color: #fefad7; }
+    .contenedorHijoIndex_main .seccionVideo .videoInicio {
+      width: 70%; }
+  .contenedorHijoIndex_main .seccionInicioProductos {
+    margin: 5% 2%;
+    display: flex;
+    flex-direction: column; }
+    .contenedorHijoIndex_main .seccionInicioProductos .especialidadesInicio {
+      text-align: center; }
+      .contenedorHijoIndex_main .seccionInicioProductos .especialidadesInicio .especialidadesCasa {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 32px; }
+      .contenedorHijoIndex_main .seccionInicioProductos .especialidadesInicio .productos_texto {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        margin: 3%; }
+    .contenedorHijoIndex_main .seccionInicioProductos .fotosInicioProductos {
+      display: flex; }
+      .contenedorHijoIndex_main .seccionInicioProductos .fotosInicioProductos .articuloInicio {
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px; }
+        .contenedorHijoIndex_main .seccionInicioProductos .fotosInicioProductos .articuloInicio .articulo_img {
+          filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+          width: 80%; }
+          .contenedorHijoIndex_main .seccionInicioProductos .fotosInicioProductos .articuloInicio .articulo_img:hover {
+            transform: scale(1.1, 1.1); }
+        .contenedorHijoIndex_main .seccionInicioProductos .fotosInicioProductos .articuloInicio .indexSeccProd {
+          margin-top: 5%;
+          font-size: 100%; }
+    .contenedorHijoIndex_main .seccionInicioProductos .verProductosInicio {
+      background-color: #b39975;
+      text-decoration: none;
+      color: black;
+      margin-top: 5%;
+      border-radius: 20%;
+      padding: 5px 20px;
+      font-size: 20px;
+      transition: 0.5s;
+      align-self: center; }
+      .contenedorHijoIndex_main .seccionInicioProductos .verProductosInicio:hover {
+        background-color: black;
+        color: white;
+        border-radius: 20%;
+        padding: 5px 20px;
+        font-size: 20px; }
+
+.contenedorHijoIndex_footer {
+  grid-area: footer;
+  color: white;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  .contenedorHijoIndex_footer .footerIzquierda {
+    margin-left: 1%; }
+  .contenedorHijoIndex_footer .footerDerecha {
+    margin: 1% 5%; }
+
 .headerMenu {
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoSeccMenu1.png);
   background-size: cover;
@@ -346,6 +516,159 @@
   .contenedorHijoCont_footer .footerDerecha {
     margin: 1% 5%; }
 
+.headerProductos {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoSeccProducto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  grid-area: header; }
+  .headerProductos .navbar {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif; }
+    .headerProductos .navbar .container-fluid .logo {
+      display: block;
+      margin-left: 1%;
+      position: relative;
+      bottom: 15%; }
+    .headerProductos .navbar .container-fluid .navbar-toggler {
+      position: relative;
+      bottom: 30px;
+      background-color: #fefad7; }
+    .headerProductos .navbar .container-fluid .navbar-collapse {
+      justify-content: flex-end;
+      position: relative;
+      bottom: 40px; }
+      .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav {
+        list-style-type: none;
+        padding: 2%; }
+        .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+          display: inline-block;
+          padding: 5px; }
+          .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+            text-decoration: none;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            padding: 10px; }
+            .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+              background-color: #fefad7;
+              border-radius: 20%;
+              color: black; }
+  .headerProductos .divSaboresOtros {
+    margin: 3%;
+    position: relative;
+    top: 5%; }
+    .headerProductos .divSaboresOtros .h1_header {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      font-size: 3rem; }
+
+.contenedorHijoProd_main {
+  grid-area: main; }
+  .contenedorHijoProd_main .mainSeccion {
+    margin: 5%; }
+    .contenedorHijoProd_main .mainSeccion .mainTitulo {
+      text-align: center;
+      margin: 2%;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 32px; }
+    .contenedorHijoProd_main .mainSeccion .mainParrafo {
+      text-align: center;
+      margin: 2% 7%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px; }
+  .contenedorHijoProd_main .seccionProductos_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "Producto1 Hamburguesa" "Pizza Producto2" "Producto3 Pancho"; }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg1 {
+      grid-area: Hamburguesa;
+      justify-self: left;
+      margin: 9% 20% 5% 5%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodImg1 .imgDivProductos_hamb {
+        width: 100%; }
+    .contenedorHijoProd_main .seccionProductos_main .prodTexto1 {
+      grid-area: Producto1;
+      text-align: right;
+      margin: 9% 5% 5% 20%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodTexto1 .prodTexto1_h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        margin: 5%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodTexto1 .prodTexto1_p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin: 5%; }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg2 {
+      grid-area: Pizza;
+      text-align: end;
+      margin: 9% 5% 5% 20%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodImg2 .imgDivProductos_pizza {
+        width: 100%; }
+    .contenedorHijoProd_main .seccionProductos_main .prodTexto2 {
+      grid-area: Producto2;
+      text-align: left;
+      margin: 9% 20% 5% 5%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodTexto2 .prodTexto_h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        margin: 5%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodTexto2 .prodTexto_p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin: 5%; }
+    .contenedorHijoProd_main .seccionProductos_main .prodTexto3 {
+      grid-area: Producto3;
+      text-align: right;
+      margin: 9% 5% 5% 20%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodTexto3 .prodTexto3_h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 32px;
+        margin: 5%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodTexto3 .prodTexto3_p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin: 5%; }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg3 {
+      grid-area: Pancho;
+      justify-self: center;
+      margin: 9% 20% 5% 5%; }
+      .contenedorHijoProd_main .seccionProductos_main .prodImg3 .imgDivProductos_pancho {
+        width: 100%; }
+
+.contenedorHijoProd_footer {
+  grid-area: footer;
+  color: white;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  .contenedorHijoProd_footer .footerIzquierda {
+    margin-left: 1%; }
+  .contenedorHijoProd_footer .footerDerecha {
+    margin: 1% 5%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.contenedorPadre {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "main" "footer";
+  width: 100%; }
+
 @media screen and (max-width: 991px) {
   .navbar-nav {
     display: flex;
@@ -358,11 +681,18 @@
       color: black;
       background-color: #fefad7;
       border-radius: 20%; }
+  .navbar {
+    padding: 0% 2%; }
   .logo {
     display: block;
     margin-left: 1%;
     position: relative;
     bottom: 35%; }
+  .divSabores {
+    position: relative;
+    bottom: 7%; }
+  .contenedorHijoIndex_main .seccionInicioNosotros .nosotros .nosotrosImg {
+    height: 60vh; }
   .fondoMenuMain {
     background-image: url(../img/fondoMenu3.png);
     width: 100%;
@@ -390,8 +720,64 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .imgNos {
-    width: 50vh !important; } }
+  .divImgNos {
+    display: flex;
+    justify-content: center; }
+  .contenedorHijoNos_main .seccionNosotros .divImgNos .imgNos {
+    width: 80%; }
+  .contenedorHijoProd_main .seccionProductos_main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "Hamburguesa" "Producto1" "Pizza" "Producto2" "Pancho" "Producto3"; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg1 {
+    grid-area: Hamburguesa;
+    justify-self: center;
+    margin: 5%;
+    display: flex;
+    justify-content: center; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg2 {
+    grid-area: Pizza;
+    justify-self: center;
+    margin: 5%;
+    display: flex;
+    justify-content: center; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg3 {
+    grid-area: Pancho;
+    justify-self: center;
+    margin: 5%;
+    display: flex;
+    justify-content: center; }
+  .contenedorHijoProd_main .seccionProductos_main .prodTexto1 {
+    grid-area: Producto1;
+    text-align: center;
+    margin: 5%;
+    position: relative;
+    bottom: 5%; }
+  .contenedorHijoProd_main .seccionProductos_main .prodTexto2 {
+    grid-area: Producto2;
+    text-align: center;
+    margin: 5%;
+    position: relative;
+    bottom: 5%; }
+  .contenedorHijoProd_main .seccionProductos_main .prodTexto3 {
+    grid-area: Producto3;
+    text-align: center;
+    margin: 5%;
+    position: relative;
+    bottom: 5%; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg1 .imgDivProductos_hamb {
+    width: 70%;
+    position: relative;
+    top: 20%; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg2 .imgDivProductos_pizza {
+    width: 70%;
+    position: relative;
+    top: 20%; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg3 .imgDivProductos_pancho {
+    width: 70%;
+    position: relative;
+    top: 20%; } }
 
 @media screen and (max-width: 576px) {
   .logo {
@@ -399,6 +785,23 @@
     margin-left: 1%;
     position: relative;
     bottom: 35%; }
+  .divSabores {
+    position: relative;
+    bottom: 9%; }
+  .nosotros {
+    display: flex;
+    justify-content: center; }
+  .fotosInicioProductos {
+    display: flex;
+    flex-direction: column; }
+  .articuloInicio {
+    margin: 5%; }
+  .seccionBoton {
+    display: flex;
+    flex-direction: column;
+    width: 30vh; }
+  .boton {
+    margin: 1vh 0vh; }
   footer {
     color: white;
     background-color: black;
@@ -406,15 +809,22 @@
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    text-align: center; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.contenedorPadre {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-areas: "header" "main" "footer";
-  width: 100%; }
+    text-align: center; }
+  .fotosInicioProductos {
+    display: flex;
+    flex-direction: column; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg1 .imgDivProductos_hamb {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 20%; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg2 .imgDivProductos_pizza {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 20%; }
+  .contenedorHijoProd_main .seccionProductos_main .prodImg3 .imgDivProductos_pancho {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 20%; } }

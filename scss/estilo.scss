@@ -1,9 +1,10 @@
 $colorPaleta_marron: #b39975;
 $colorPaleta_beige: #fefad7;
+@import "index";
 @import "menu";
 @import "nosotros";
 @import "contacto";
-@import "querries";
+@import "productos";
 
 *{
     margin: 0;
@@ -19,4 +20,210 @@ $colorPaleta_beige: #fefad7;
     "main"
     "footer";
     width: 100%;
+}
+
+@media screen and (max-width:991px){
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+        padding: 0% 2%;
+        .nav-item{
+            &:hover{
+                border-radius: 20%;
+                background-color: transparent;
+            }
+            .boton-menu{
+                &:hover{
+                    color: black;
+                    background-color: $colorPaleta_beige;
+                    border-radius: 20%;
+                }
+            }
+        }
+    }
+    .navbar{
+        padding: 0% 2%;
+    }
+    .logo{
+        display: block;
+        margin-left: 1%;
+        position: relative;
+        bottom: 35%;
+    }
+    .divSabores{
+        position: relative;
+        bottom: 7%;
+    }
+    .contenedorHijoIndex_main .seccionInicioNosotros .nosotros .nosotrosImg{
+        height: 60vh;
+    }
+    .fondoMenuMain{
+        background-image: url(../img/fondoMenu3.png);
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .h1_header{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        position: relative;
+        bottom: 70px;
+    }
+    .seccionInicioNosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccionNosotros{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divImgNos{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedorHijoNos_main .seccionNosotros .divImgNos .imgNos{
+        width: 80%; 
+    }
+    .contenedorHijoProd_main .seccionProductos_main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "Hamburguesa"
+        "Producto1"
+        "Pizza"
+        "Producto2"
+        "Pancho"
+        "Producto3";
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg1{
+        grid-area: Hamburguesa;
+        justify-self: center;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg2{
+        grid-area: Pizza;
+        justify-self: center;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg3{
+        grid-area: Pancho;
+        justify-self: center;
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodTexto1{
+        grid-area: Producto1;
+        text-align: center;
+        margin: 5%;
+        position: relative;
+        bottom: 5%;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodTexto2{
+        grid-area: Producto2;
+        text-align: center;
+        margin: 5%;
+        position: relative;
+        bottom: 5%;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodTexto3{
+        grid-area: Producto3;
+        text-align: center;
+        margin: 5%;
+        position: relative;
+        bottom: 5%;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg1 .imgDivProductos_hamb{
+        width: 70%;
+        position: relative;
+        top: 20%;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg2 .imgDivProductos_pizza{
+        width: 70%;
+        position: relative;
+        top: 20%;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg3 .imgDivProductos_pancho{
+        width: 70%;
+        position: relative;
+        top: 20%;
+    }
+}
+@media screen and (max-width:576px){
+    .logo{
+        display: block;
+        margin-left: 1%;
+        position: relative;
+        bottom: 35%;
+    }
+    .divSabores{
+        position: relative;
+        bottom: 9%;
+    }
+    .nosotros{
+        display: flex;
+        justify-content: center;
+    }
+    .fotosInicioProductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .articuloInicio{
+        margin: 5%;
+    }
+    .seccionBoton{
+        display: flex;
+        flex-direction: column;
+        width: 30vh;
+    }
+    .boton{
+        margin: 1vh 0vh;
+    }
+    footer{
+        color: white;
+        background-color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fotosInicioProductos{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg1 .imgDivProductos_hamb{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        top: 20%;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg2 .imgDivProductos_pizza{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        top: 20%;
+    }
+    .contenedorHijoProd_main .seccionProductos_main .prodImg3 .imgDivProductos_pancho{
+        width: 100%;
+        margin: auto;
+        position: relative;
+        top: 20%;
+    }
 }

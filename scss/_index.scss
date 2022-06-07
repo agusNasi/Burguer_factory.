@@ -1,0 +1,212 @@
+.headerInicio{
+    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/headerFondoInicio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    text-align: center;
+    grid-area: header;
+    .navbar{
+        text-align: right;
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        .container-fluid{
+            .logo{
+                display: block;
+                margin-left: 1%;
+                position: relative;
+                bottom: 15%;
+            }
+            .navbar-toggler{
+                position: relative;
+                bottom: 30px;
+                background-color: $colorPaleta_beige;
+            }
+            .navbar-collapse{
+                justify-content: flex-end;
+                position: relative;
+                bottom: 40px;
+                .navbar-nav{
+                    list-style-type: none;
+                    padding: 2%;
+                    .nav-item{
+                        display: inline-block;
+                        padding: 5px;
+                        .boton-menu{
+                            text-decoration: none;
+                            color: white;
+                            font-family: 'Open Sans', sans-serif;
+                            padding: 10px;
+                            &:hover{
+                                background-color: $colorPaleta_beige;
+                                border-radius: 20%;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .divSabores{
+        display: flex;
+        flex-direction: column;
+        margin: 3%;
+        .saboresDiv{
+            .mejoresSabores{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                text-align: center;
+                color: white;
+                font-size: 3rem;
+                span{
+                    color: $colorPaleta_marron;
+                }
+            }
+        }
+        .flexVerMenu{
+            margin-top: 5%;
+            .verMenu{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 32px;
+                color: white;
+                text-decoration: none;
+                background-color: $colorPaleta_marron;
+                padding: 5px 25px;
+                border-radius: 20%;
+                transition: 0.5s;
+                &:hover{
+                    color: black;
+                    background-color: $colorPaleta_beige;
+                    border-radius: 20%;
+                    padding: 5px 25px;
+                }
+            }
+        }
+    }
+}
+.contenedorHijoIndex_main{
+    grid-area: main;
+    .seccionInicioNosotros{
+        margin: 5%;
+        display: flex;
+        .nosotros{
+            .nosotrosImg{
+                height: 70vh;
+            }
+        }
+        .nosotros_texto{
+            margin: 5% 7% 5% 5%;
+            display: flex;
+            flex-direction: column;
+            .sobreNosotros{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+            .sobreNosotros_texto{
+                line-height: 1.6;
+                font-family: 'Roboto', sans-serif;
+                margin-bottom: 80px;
+                font-size: 20px;
+            }
+            .verMas{
+                background-color: $colorPaleta_marron;
+                text-decoration: none;
+                color: black;
+                border-radius: 20%;
+                padding: 5px 20px;
+                font-size: 20px;
+                transition: 0.5s;
+                align-self: center;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                    border-radius: 20%;
+                    padding: 5px 20px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .seccionVideo{
+        display: flex;
+        justify-content: center;
+        background-color: $colorPaleta_beige;
+        .videoInicio{
+            width: 70%;
+        }
+    }
+    .seccionInicioProductos{
+        margin: 5% 2%;
+        display: flex;
+        flex-direction: column;
+        .especialidadesInicio{
+            text-align: center;
+            .especialidadesCasa{
+                font-family: 'Open Sans', sans-serif;
+                font-weight: bold;
+                font-size: 32px;
+            }
+            .productos_texto{
+                font-size: 20px;
+                font-family: 'Roboto', sans-serif;
+                margin: 3%;
+            }
+        }
+        .fotosInicioProductos{
+            display: flex;
+            .articuloInicio{
+                text-align: center;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 20px;
+                .articulo_img{
+                    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.23));
+                    width: 80%;
+                    &:hover{
+                        transform: scale(1.1, 1.1);
+                    }
+                }
+                .indexSeccProd{
+                    margin-top: 5%;
+                    font-size: 100%;
+                }
+            }
+        }
+        .verProductosInicio{
+            background-color: $colorPaleta_marron;
+            text-decoration: none;
+            color: black;
+            margin-top: 5%;
+            border-radius: 20%;
+            padding: 5px 20px;
+            font-size: 20px;
+            transition: 0.5s;
+            align-self: center;
+            &:hover{
+                background-color: black;
+                color: white;
+                border-radius: 20%;
+                padding: 5px 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+.contenedorHijoIndex_footer{
+    grid-area: footer;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .footerIzquierda{
+        margin-left: 1%;
+    }
+    .footerDerecha{
+        margin: 1% 5%;
+    }
+}
