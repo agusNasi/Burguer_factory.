@@ -1,9 +1,4 @@
 .headerContacto{
-    background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/fondoMenu1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 35rem;
-    grid-area: header;
     .navbar{
         text-align: right;
         color: white;
@@ -163,18 +158,5 @@
     }
 }
 .contenedorHijoCont_footer{
-    grid-area: footer;
-    color: white;
-    background-color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    .footerIzquierda{
-        margin-left: 1%;
-    }
-    .footerDerecha{
-        margin: 1% 5%;
-    }
+    @extend .footer_extend
 }

@@ -1,11 +1,14 @@
 $colorPaleta_marron: #b39975;
 $colorPaleta_beige: #fefad7;
+$bgcaja1: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/fondoNosotros5.png);
+$bgcaja2: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/fondoSeccProducto.png);
+$bgcaja3: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/fondoSeccMenu1.png);
+$bgcaja4: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img/fondoMenu1.png);
 @import "index";
 @import "menu";
 @import "nosotros";
 @import "contacto";
 @import "productos";
-
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +24,42 @@ $colorPaleta_beige: #fefad7;
     "footer";
     width: 100%;
 }
-
+@mixin cajas ($bgcaja) {
+    background: $bgcaja;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    text-align: center;
+    grid-area: header;
+}
+.headerNosotros{
+    @include cajas($bgcaja1);
+}
+.headerProductos{
+    @include cajas($bgcaja2);
+}
+.headerMenu{
+    @include cajas($bgcaja3);
+}
+.headerContacto{
+    @include cajas($bgcaja4);
+}
+.footer_extend{
+    grid-area: footer;
+    color: white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .footerIzquierda{
+        margin-left: 1%;
+    }
+    .footerDerecha{
+        margin: 1% 5%;
+    }
+}
 @media screen and (max-width:991px){
     .navbar-nav{
         display: flex;

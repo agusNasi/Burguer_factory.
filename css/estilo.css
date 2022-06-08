@@ -168,55 +168,50 @@
   .contenedorHijoIndex_footer .footerDerecha {
     margin: 1% 5%; }
 
-.headerMenu {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoSeccMenu1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35rem;
-  grid-area: header; }
-  .headerMenu .navbar {
-    text-align: right;
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif; }
-    .headerMenu .navbar .container-fluid .logo {
-      display: block;
-      margin-left: 1%;
-      position: relative;
-      bottom: 15%; }
-    .headerMenu .navbar .container-fluid .navbar-toggler {
-      position: relative;
-      bottom: 30px;
-      background-color: #fefad7; }
-    .headerMenu .navbar .container-fluid .navbar-collapse {
-      justify-content: flex-end;
-      position: relative;
-      bottom: 40px; }
-      .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav {
-        list-style-type: none;
-        padding: 2%; }
-        .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
-          display: inline-block;
-          padding: 5px; }
-          .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
-            text-decoration: none;
-            color: white;
-            font-family: 'Open Sans', sans-serif;
-            padding: 10px; }
-            .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
-              background-color: #fefad7;
-              border-radius: 20%;
-              color: black; }
-  .headerMenu .divSaboresOtros {
-    margin: 3%;
+.headerMenu .navbar {
+  text-align: right;
+  color: white;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif; }
+  .headerMenu .navbar .container-fluid .logo {
+    display: block;
+    margin-left: 1%;
     position: relative;
-    top: 5%; }
-    .headerMenu .divSaboresOtros .h1_header {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
-      text-align: center;
-      color: white;
-      font-size: 3rem; }
+    bottom: 15%; }
+  .headerMenu .navbar .container-fluid .navbar-toggler {
+    position: relative;
+    bottom: 30px;
+    background-color: #fefad7; }
+  .headerMenu .navbar .container-fluid .navbar-collapse {
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px; }
+    .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav {
+      list-style-type: none;
+      padding: 2%; }
+      .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        padding: 5px; }
+        .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+          text-decoration: none;
+          color: white;
+          font-family: 'Open Sans', sans-serif;
+          padding: 10px; }
+          .headerMenu .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+            background-color: #fefad7;
+            border-radius: 20%;
+            color: black; }
+
+.headerMenu .divSaboresOtros {
+  margin: 3%;
+  position: relative;
+  top: 5%; }
+  .headerMenu .divSaboresOtros .h1_header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 3rem; }
 
 .seccion_main-menu {
   grid-area: main; }
@@ -268,70 +263,50 @@
         font-family: 'Open Sans', sans-serif;
         font-weight: bold; }
 
-.footer {
-  grid-area: footer;
+.headerNosotros .navbar {
+  text-align: right;
   color: white;
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center; }
-  .footer .footerIzquierda {
-    margin-left: 1%; }
-  .footer .footerDerecha {
-    margin: 1% 5%; }
-
-.headerNosotros {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoNosotros5.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35rem;
-  text-align: center;
-  grid-area: header; }
-  .headerNosotros .navbar {
-    text-align: right;
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif; }
-    .headerNosotros .navbar .container-fluid .logo {
-      display: block;
-      margin-left: 1%;
-      position: relative;
-      bottom: 15%; }
-    .headerNosotros .navbar .container-fluid .navbar-toggler {
-      position: relative;
-      bottom: 30px;
-      background-color: #fefad7; }
-    .headerNosotros .navbar .container-fluid .navbar-collapse {
-      justify-content: flex-end;
-      position: relative;
-      bottom: 40px; }
-      .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav {
-        list-style-type: none;
-        padding: 2%; }
-        .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
-          display: inline-block;
-          padding: 5px; }
-          .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
-            text-decoration: none;
-            color: white;
-            font-family: 'Open Sans', sans-serif;
-            padding: 10px; }
-            .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
-              background-color: #fefad7;
-              border-radius: 20%;
-              color: black; }
-  .headerNosotros .divSaboresOtros {
-    margin: 3%;
+  font-family: 'Open Sans', sans-serif; }
+  .headerNosotros .navbar .container-fluid .logo {
+    display: block;
+    margin-left: 1%;
     position: relative;
-    top: 5%; }
-    .headerNosotros .divSaboresOtros .h1_header {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
-      text-align: center;
-      color: white;
-      font-size: 3rem; }
+    bottom: 15%; }
+  .headerNosotros .navbar .container-fluid .navbar-toggler {
+    position: relative;
+    bottom: 30px;
+    background-color: #fefad7; }
+  .headerNosotros .navbar .container-fluid .navbar-collapse {
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px; }
+    .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav {
+      list-style-type: none;
+      padding: 2%; }
+      .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        padding: 5px; }
+        .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+          text-decoration: none;
+          color: white;
+          font-family: 'Open Sans', sans-serif;
+          padding: 10px; }
+          .headerNosotros .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+            background-color: #fefad7;
+            border-radius: 20%;
+            color: black; }
+
+.headerNosotros .divSaboresOtros {
+  margin: 3%;
+  position: relative;
+  top: 5%; }
+  .headerNosotros .divSaboresOtros .h1_header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 3rem; }
 
 .contenedorHijoNos_main {
   grid-area: main; }
@@ -357,69 +332,50 @@
         font-family: 'Water Brush', cursive;
         margin-top: 10%; }
 
-.contenedorHijoNos_footer {
-  grid-area: footer;
+.headerContacto .navbar {
+  text-align: right;
   color: white;
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center; }
-  .contenedorHijoNos_footer .footerIzquierda {
-    margin-left: 1%; }
-  .contenedorHijoNos_footer .footerDerecha {
-    margin: 1% 5%; }
-
-.headerContacto {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoMenu1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35rem;
-  grid-area: header; }
-  .headerContacto .navbar {
-    text-align: right;
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif; }
-    .headerContacto .navbar .container-fluid .logo {
-      display: block;
-      margin-left: 1%;
-      position: relative;
-      bottom: 15%; }
-    .headerContacto .navbar .container-fluid .navbar-toggler {
-      position: relative;
-      bottom: 30px;
-      background-color: #fefad7; }
-    .headerContacto .navbar .container-fluid .navbar-collapse {
-      justify-content: flex-end;
-      position: relative;
-      bottom: 40px; }
-      .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav {
-        list-style-type: none;
-        padding: 2%; }
-        .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
-          display: inline-block;
-          padding: 5px; }
-          .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
-            text-decoration: none;
-            color: white;
-            font-family: 'Open Sans', sans-serif;
-            padding: 10px; }
-            .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
-              background-color: #fefad7;
-              border-radius: 20%;
-              color: black; }
-  .headerContacto .divSaboresOtros {
-    margin: 3%;
+  font-family: 'Open Sans', sans-serif; }
+  .headerContacto .navbar .container-fluid .logo {
+    display: block;
+    margin-left: 1%;
     position: relative;
-    top: 5%; }
-    .headerContacto .divSaboresOtros .h1_header {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
-      text-align: center;
-      color: white;
-      font-size: 3rem; }
+    bottom: 15%; }
+  .headerContacto .navbar .container-fluid .navbar-toggler {
+    position: relative;
+    bottom: 30px;
+    background-color: #fefad7; }
+  .headerContacto .navbar .container-fluid .navbar-collapse {
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px; }
+    .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav {
+      list-style-type: none;
+      padding: 2%; }
+      .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        padding: 5px; }
+        .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+          text-decoration: none;
+          color: white;
+          font-family: 'Open Sans', sans-serif;
+          padding: 10px; }
+          .headerContacto .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+            background-color: #fefad7;
+            border-radius: 20%;
+            color: black; }
+
+.headerContacto .divSaboresOtros {
+  margin: 3%;
+  position: relative;
+  top: 5%; }
+  .headerContacto .divSaboresOtros .h1_header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 3rem; }
 
 .contenedorHijoCont_main {
   grid-area: main;
@@ -502,69 +458,50 @@
         display: flex;
         width: 30vh; }
 
-.contenedorHijoCont_footer {
-  grid-area: footer;
+.headerProductos .navbar {
+  text-align: right;
   color: white;
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center; }
-  .contenedorHijoCont_footer .footerIzquierda {
-    margin-left: 1%; }
-  .contenedorHijoCont_footer .footerDerecha {
-    margin: 1% 5%; }
-
-.headerProductos {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoSeccProducto.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35rem;
-  grid-area: header; }
-  .headerProductos .navbar {
-    text-align: right;
-    color: white;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif; }
-    .headerProductos .navbar .container-fluid .logo {
-      display: block;
-      margin-left: 1%;
-      position: relative;
-      bottom: 15%; }
-    .headerProductos .navbar .container-fluid .navbar-toggler {
-      position: relative;
-      bottom: 30px;
-      background-color: #fefad7; }
-    .headerProductos .navbar .container-fluid .navbar-collapse {
-      justify-content: flex-end;
-      position: relative;
-      bottom: 40px; }
-      .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav {
-        list-style-type: none;
-        padding: 2%; }
-        .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
-          display: inline-block;
-          padding: 5px; }
-          .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
-            text-decoration: none;
-            color: white;
-            font-family: 'Open Sans', sans-serif;
-            padding: 10px; }
-            .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
-              background-color: #fefad7;
-              border-radius: 20%;
-              color: black; }
-  .headerProductos .divSaboresOtros {
-    margin: 3%;
+  font-family: 'Open Sans', sans-serif; }
+  .headerProductos .navbar .container-fluid .logo {
+    display: block;
+    margin-left: 1%;
     position: relative;
-    top: 5%; }
-    .headerProductos .divSaboresOtros .h1_header {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: bold;
-      text-align: center;
-      color: white;
-      font-size: 3rem; }
+    bottom: 15%; }
+  .headerProductos .navbar .container-fluid .navbar-toggler {
+    position: relative;
+    bottom: 30px;
+    background-color: #fefad7; }
+  .headerProductos .navbar .container-fluid .navbar-collapse {
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px; }
+    .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav {
+      list-style-type: none;
+      padding: 2%; }
+      .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item {
+        display: inline-block;
+        padding: 5px; }
+        .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu {
+          text-decoration: none;
+          color: white;
+          font-family: 'Open Sans', sans-serif;
+          padding: 10px; }
+          .headerProductos .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item .boton-menu:hover {
+            background-color: #fefad7;
+            border-radius: 20%;
+            color: black; }
+
+.headerProductos .divSaboresOtros {
+  margin: 3%;
+  position: relative;
+  top: 5%; }
+  .headerProductos .divSaboresOtros .h1_header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 3rem; }
 
 .contenedorHijoProd_main {
   grid-area: main; }
@@ -644,20 +581,6 @@
       .contenedorHijoProd_main .seccionProductos_main .prodImg3 .imgDivProductos_pancho {
         width: 100%; }
 
-.contenedorHijoProd_footer {
-  grid-area: footer;
-  color: white;
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center; }
-  .contenedorHijoProd_footer .footerIzquierda {
-    margin-left: 1%; }
-  .contenedorHijoProd_footer .footerDerecha {
-    margin: 1% 5%; }
-
 * {
   margin: 0;
   padding: 0;
@@ -668,6 +591,52 @@
   grid-template-columns: auto;
   grid-template-areas: "header" "main" "footer";
   width: 100%; }
+
+.headerNosotros {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoNosotros5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  text-align: center;
+  grid-area: header; }
+
+.headerProductos {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoSeccProducto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  text-align: center;
+  grid-area: header; }
+
+.headerMenu {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoSeccMenu1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  text-align: center;
+  grid-area: header; }
+
+.headerContacto {
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoMenu1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  text-align: center;
+  grid-area: header; }
+
+.footer_extend, .footer, .contenedorHijoNos_footer, .contenedorHijoCont_footer, .contenedorHijoProd_footer {
+  grid-area: footer;
+  color: white;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center; }
+  .footer_extend .footerIzquierda, .footer .footerIzquierda, .contenedorHijoNos_footer .footerIzquierda, .contenedorHijoCont_footer .footerIzquierda, .contenedorHijoProd_footer .footerIzquierda {
+    margin-left: 1%; }
+  .footer_extend .footerDerecha, .footer .footerDerecha, .contenedorHijoNos_footer .footerDerecha, .contenedorHijoCont_footer .footerDerecha, .contenedorHijoProd_footer .footerDerecha {
+    margin: 1% 5%; }
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
