@@ -152,6 +152,23 @@
                 .seccionBoton{
                     display: flex;
                     width: 30vh;
+                    .botonEnviar{
+                        background-color: $colorPaleta_marron;
+                        text-decoration: none;
+                        color: black;
+                        border-radius: 20%;
+                        padding: 2px 20px;
+                        font-size: 20px;
+                        transition: 0.5s;
+                        align-self: center;
+                        &:hover{
+                            background-color: black;
+                            color: white;
+                            border-radius: 20%;
+                            padding: 2px 20px;
+                            font-size: 20px;
+                        }
+                    }
                 }
             }
         }

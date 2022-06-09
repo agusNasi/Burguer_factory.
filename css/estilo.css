@@ -457,6 +457,21 @@
       .contenedorHijoCont_main .seccion2Cont form .contactoBotones .seccionBoton {
         display: flex;
         width: 30vh; }
+        .contenedorHijoCont_main .seccion2Cont form .contactoBotones .seccionBoton .botonEnviar {
+          background-color: #b39975;
+          text-decoration: none;
+          color: black;
+          border-radius: 20%;
+          padding: 2px 20px;
+          font-size: 20px;
+          transition: 0.5s;
+          align-self: center; }
+          .contenedorHijoCont_main .seccion2Cont form .contactoBotones .seccionBoton .botonEnviar:hover {
+            background-color: black;
+            color: white;
+            border-radius: 20%;
+            padding: 2px 20px;
+            font-size: 20px; }
 
 .headerProductos .navbar {
   text-align: right;
