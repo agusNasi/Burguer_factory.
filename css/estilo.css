@@ -632,7 +632,7 @@
   grid-area: header; }
 
 .headerContacto {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoMenu1.png);
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../img/fondoContacto1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 35rem;
