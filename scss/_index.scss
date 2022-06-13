@@ -195,18 +195,5 @@
     }
 }
 .contenedorHijoIndex_footer{
-    grid-area: footer;
-    color: white;
-    background-color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    .footerIzquierda{
-        margin-left: 1%;
-    }
-    .footerDerecha{
-        margin: 1% 5%;
-    }
+    @extend .footer_extend
 }
