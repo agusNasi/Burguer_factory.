@@ -55,6 +55,8 @@ $bgcaja4: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img
     text-align: center;
     .footerIzquierda{
         margin-left: 1%;
+        display: flex;
+        justify-content: center;
     }
     .footerDerecha{
         margin: 1% 5%;

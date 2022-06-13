@@ -154,20 +154,6 @@
         padding: 5px 20px;
         font-size: 20px; }
 
-.contenedorHijoIndex_footer {
-  grid-area: footer;
-  color: white;
-  background-color: black;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  display: flex;
-  justify-content: space-between;
-  text-align: center; }
-  .contenedorHijoIndex_footer .footerIzquierda {
-    margin-left: 1%; }
-  .contenedorHijoIndex_footer .footerDerecha {
-    margin: 1% 5%; }
-
 .headerMenu .navbar {
   text-align: right;
   color: white;
@@ -624,7 +610,7 @@
   text-align: center;
   grid-area: header; }
 
-.footer_extend, .footer, .contenedorHijoNos_footer, .contenedorHijoCont_footer, .contenedorHijoProd_footer {
+.footer_extend, .contenedorHijoIndex_footer, .ContenedorHijoMenu_footer, .contenedorHijoNos_footer, .contenedorHijoCont_footer, .contenedorHijoProd_footer {
   grid-area: footer;
   color: white;
   background-color: black;
@@ -633,9 +619,11 @@
   display: flex;
   justify-content: space-between;
   text-align: center; }
-  .footer_extend .footerIzquierda, .footer .footerIzquierda, .contenedorHijoNos_footer .footerIzquierda, .contenedorHijoCont_footer .footerIzquierda, .contenedorHijoProd_footer .footerIzquierda {
-    margin-left: 1%; }
-  .footer_extend .footerDerecha, .footer .footerDerecha, .contenedorHijoNos_footer .footerDerecha, .contenedorHijoCont_footer .footerDerecha, .contenedorHijoProd_footer .footerDerecha {
+  .footer_extend .footerIzquierda, .contenedorHijoIndex_footer .footerIzquierda, .ContenedorHijoMenu_footer .footerIzquierda, .contenedorHijoNos_footer .footerIzquierda, .contenedorHijoCont_footer .footerIzquierda, .contenedorHijoProd_footer .footerIzquierda {
+    margin-left: 1%;
+    display: flex;
+    justify-content: center; }
+  .footer_extend .footerDerecha, .contenedorHijoIndex_footer .footerDerecha, .ContenedorHijoMenu_footer .footerDerecha, .contenedorHijoNos_footer .footerDerecha, .contenedorHijoCont_footer .footerDerecha, .contenedorHijoProd_footer .footerDerecha {
     margin: 1% 5%; }
 
 @media screen and (max-width: 991px) {
