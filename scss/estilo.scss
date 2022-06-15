@@ -60,6 +60,11 @@ $bgcaja4: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(../img
     }
     .footerDerecha{
         margin: 1% 5%;
+        .redesSociales{
+            &:hover{
+                transform: scale(1.1, 1.1);
+            }
+        }
     }
 }
 @media screen and (max-width:991px){

@@ -625,6 +625,8 @@
     justify-content: center; }
   .footer_extend .footerDerecha, .contenedorHijoIndex_footer .footerDerecha, .ContenedorHijoMenu_footer .footerDerecha, .contenedorHijoNos_footer .footerDerecha, .contenedorHijoCont_footer .footerDerecha, .contenedorHijoProd_footer .footerDerecha {
     margin: 1% 5%; }
+    .footer_extend .footerDerecha .redesSociales:hover, .contenedorHijoIndex_footer .footerDerecha .redesSociales:hover, .ContenedorHijoMenu_footer .footerDerecha .redesSociales:hover, .contenedorHijoNos_footer .footerDerecha .redesSociales:hover, .contenedorHijoCont_footer .footerDerecha .redesSociales:hover, .contenedorHijoProd_footer .footerDerecha .redesSociales:hover {
+      transform: scale(1.1, 1.1); }
 
 @media screen and (max-width: 991px) {
   .navbar-nav {
